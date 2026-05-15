@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://sam-musoni-portfolio-website.vercel.app/maintenance.html",
+      "permanent": true
+    }
+  ]
+}
