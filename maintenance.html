@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Musoni | Maintenance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Vignette & Grid -->
+  <div class="bg-vignette"></div>
+  <div class="scanlines"></div>
+
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="index.html" style="text-decoration: none; color: inherit;">
+        <div class="logo glitch-text" data-text="SM_">SM<span class="text-primary">_</span></div>
+      </a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Open Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#about" class="nav-link-item">About</a>
+        <a href="index.html#sandbox" class="nav-link-item">Sandbox</a>
+        <a href="index.html#agent-interactive" class="nav-link-item">Agent</a>
+        <a href="index.html#projects" class="nav-link-item">Projects</a>
+        <a href="index.html#experience" class="nav-link-item">Experience</a>
+        <a href="index.html#awards" class="nav-link-item">Awards</a>
+        <a href="gallery.html" class="nav-link-item">Photo Gallery</a>
+        <a href="contact.html" class="nav-link-item">Contact</a>
+        <div class="lang-toggle">
+          <span class="lang active">EN</span><span class="pipe">|</span><span class="lang">FR</span><span class="pipe">|</span><span class="lang">KN</span>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg id="sun-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 70vh; text-align: center;">
+    <div class="tech-card" style="padding: 4rem 2rem; max-width: 600px; border-color: var(--secondary);">
+        <h1 class="glitch-text" data-text="SYSTEM OFFLINE" style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--secondary);">SYSTEM OFFLINE</h1>
+        <p class="text-gray" style="margin-bottom: 2rem; font-size: 1.1rem; line-height: 1.6;">
+            The requested deployment is currently undergoing scheduled backend architecture maintenance to patch vulnerabilities and upgrade cluster infrastructure. Please check back later.
+        </p>
+        <a href="index.html#projects" class="btn btn-outline" style="border-color: var(--secondary); color: var(--text-main);">Return to Hub</a>
+    </div>
+  </main>
+
+  <footer style="position: absolute; bottom: 0; width: 100%;">
+    <p class="text-gray" style="font-size: 14px;">Copyright &copy; 2026 Sam Musoni</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
